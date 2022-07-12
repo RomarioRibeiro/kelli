@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body, html {
+    background-color: #2C3639;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.kelli--cabecalho {
+    background-color: #3F4E4F;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.kelli--cabecalho--layout {
+    color: #fff;
+    text-align: center;
+    margin: 60px;
+    font-size: 16px;
+}
+
+.kelli--cabecalho--layout h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FAEA48;
+}
+
+
+.container-depoimento {
+    color: #FAEA48;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.layout-depoimento {
+    background-color: #3F4E4F;
+    margin: 40px;
+    border-radius: 10px;
+    height: 200px;
+
+
+}
+
+.depoimento-kelli  {
+    float: left;
+    margin-left: 15px;
+    border-radius:5px ;
+ 
+
+    width: 120px;
+    height: 120px;
+
+  
+}
+
+.img-esquenda {
+    border-radius: 5px;
+}
+
+
+.container-depoimento p {
+  font-size: 1.2rem;
+  text-align: center;
+
+}
